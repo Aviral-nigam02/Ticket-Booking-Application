@@ -1,0 +1,25 @@
+[
+  {
+    "user_id": "12345",
+    "name": "Aviral Nigam",
+    "hashed_password": "abc123@",
+    "tickets_booked":[
+      {
+        "source": "Kanpur",
+        "destination": "Delhi",
+        "date_of_travel": "06-03-2025T11:28:50Z ",
+        "train":{
+          "train_id": "uvwxyz",
+          "train_no": 1234567,
+          "seats": [
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+          ],
+          "stations": {"Kanpur": "13:50:00","Delhi": "18:59:59", "Jaipur": "16:30:00"}
+        }
+      }
+    ]
+  }
+]
