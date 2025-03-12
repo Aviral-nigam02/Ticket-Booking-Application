@@ -24,6 +24,8 @@ dependencies {
 
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.2'
     //Basic data binding (mapping) functionality that allows for reading JSON content into Java Objects (POJOs) and JSON Trees ( JsonNode ), as well as writing Java Objects and trees as JSON
+
+    implementation 'org.mindrot:jbcrypt:0.4'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
